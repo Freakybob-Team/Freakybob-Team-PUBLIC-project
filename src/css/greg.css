@@ -38,3 +38,20 @@ th {
 tr:hover {
   background: rgba(255, 255, 255, 0.3);
 }
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    background: linear-gradient(to right, #A8D8FF, #B9E4C9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-position 0.5s ease;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+
+a:hover {
+    background-position: 0 0;
+}
