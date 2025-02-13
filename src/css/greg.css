@@ -1,4 +1,40 @@
 body {
   color: white;
-  background-color: #3b041e;
+  background-color: #4a0525;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.5;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+th {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.3);
 }
