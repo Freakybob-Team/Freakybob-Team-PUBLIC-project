@@ -16,7 +16,7 @@ function Repos() {
         new GitHubRepo("Christmas-update", "https://github.com/freakybob-team/Christmas-update", "Oct 21, 2024", "Feb 13, 2025"),
         new GitHubRepo("archive", "https://github.com/freakybob-team/archive", "Nov 10, 2024", "Feb 13, 2025"),
         new GitHubRepo("freakysfx", "https://github.com/freakybob-team/freakysfx", "Nov 14, 2024", "Feb 13, 2025"),
-        new GitHubReop("Freakybob-Team-myths", "https://github.com/freakybob-team/Freakybob-Team-myths", "Dec 15, 2024", "Feb 13, 2025")
+        new GitHubRepo("Freakybob-Team-myths", "https://github.com/freakybob-team/Freakybob-Team-myths", "Dec 15, 2024", "Feb 13, 2025")
     ];
 
     if (mem) {
